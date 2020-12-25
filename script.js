@@ -46,7 +46,7 @@ function subtraction() {
 
     node2.setAttribute("style", "background: white; width: 20%; padding: 15px; border: 1px gray; margin: 15px;");
 
-    storage.insertAdjacentElement("beforeend", node2)
+    storage.insertAdjacentElement("beforeend", node2);
 
     document.getElementById("fnumber").value = "";
     document.getElementById("snumber").value = "";
@@ -67,7 +67,7 @@ function multiplication() {
 
     node4.setAttribute("style", "background: white; width: 20%; padding: 15px; border: 1px gray; margin: 15px;");
 
-    storage.insertAdjacentElement("beforeend", node5)
+    storage.insertAdjacentElement("beforeend", node5);
 
     document.getElementById("fnumber").value = "";
     document.getElementById("snumber").value = "";
@@ -88,7 +88,7 @@ function division() {
 
     node6.setAttribute("style", "background: white; width: 20%; padding: 15px; border: 1px gray; margin: 15px;");
 
-    storage.insertAdjacentElement("beforeend", node7)
+    storage.insertAdjacentElement("beforeend", node7);
 
     document.getElementById("fnumber").value = "";
     document.getElementById("snumber").value = "";
@@ -109,9 +109,8 @@ function exponent() {
 
     node8.setAttribute("style", "background: white; width: 20%; padding: 15px; border: 1px gray; margin: 15px;");
 
-    storage.insertAdjacentElement("beforeend", node9)
+    storage.insertAdjacentElement("beforeend", node9);
 
     document.getElementById("fnumber").value = "";
     document.getElementById("snumber").value = "";
-}
 }
