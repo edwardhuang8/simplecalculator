@@ -23,7 +23,7 @@ textarea {
     border-radius: 5px;
 }
 
-.sadd, .ssub, .smul, .sdiv {
+.sadd, .ssub, .smul, .sdiv, .sexp {
     display: flex;
     margin: auto;
     border: 1px solid grey;
